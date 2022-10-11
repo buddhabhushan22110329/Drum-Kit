@@ -1,0 +1,77 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+body{
+    text-align: center;
+}
+h1{
+    color: white;
+    font-family: "Arvo", cursive;
+    font-size: 5rem;
+    width: auto;
+    text-shadow: 2px 2px rgb(230, 42, 158);
+}
+
+.set{
+    margin-top: 10%;
+    width: 100%;
+}
+
+#wID, #aID, #sID, #lID, #kID, #jID, #dID{
+    height: 140px;
+    width: 140px;
+    margin: 0% 1%;
+}
+
+#wID:hover, #aID:hover, #sID:hover, #lID:hover, #kID:hover, #jID:hover, #dID:hover{
+    border: 10px solid #f57979;
+}
+
+.drum{
+    border: 10px solid #445072;
+    border-radius: 15px;
+    font-family: "Arvo", cursive;
+    font-size: 5rem;
+    font-weight: bolder;
+    color: rgb(244, 20, 132);
+    text-shadow: 2px 2px white;
+    text-align:center;
+    /* line-height: 2; */
+}
+
+#wID{
+    background-image: url("images/tom1.png");
+}
+#aID{
+    background-image: url("images/tom2.png");
+}
+#sID{
+    background-image: url("images/tom3.png");
+}
+#dID{
+    background-image: url("images/tom4.png");
+}
+#jID{
+    background-image: url("images/snare.png");
+}
+#kID{
+    background-image: url("images/crash.png");
+}
+#lID{
+    background-image: url("images/kick.png");
+}
+
+.change{
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+    transition-duration: 1;
+}
+
+footer{
+    position: sticky;
+    color: white;
+    margin-top: 12%;
+    font-family: "sans", cursive;
+}
